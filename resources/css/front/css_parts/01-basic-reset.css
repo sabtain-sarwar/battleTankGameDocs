@@ -1,0 +1,48 @@
+
+/*--- CSS Variables ---*/
+:root{
+
+	--Btn-Color--: #7CC576;
+	--Heading-Color--: #222222;
+	--White--: #FFFFFF;
+
+	--Center--: center;
+
+}
+
+*, *::before, *::after{
+
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+
+}
+
+html{
+	font-size: 62.5%;
+}
+
+body{
+	font-family: Arial, sans-serif;
+	font-weight: 400;
+	color: #777777;
+	line-height: 1.7;
+	/*-- With line-height we can reduce aur bottom margin alot.But Use it wisely. --*/
+
+	box-sizing: border-box;
+}
+
+
+
+/*--- General CSS ---*/
+
+.row{
+
+	width: 114rem;
+	margin: 0 auto;
+
+}
+
+.section--lg--padding{
+	padding: 9rem 0 11rem 0;
+}

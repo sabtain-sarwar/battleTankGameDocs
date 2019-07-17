@@ -1,0 +1,71 @@
+
+@media only screen and (max-width: 71.875em){
+
+	.contact{
+		justify-content: center;
+	}
+
+	.contact--form{
+		flex: 0 0 40%;
+	}
+
+}
+
+@media only screen and (max-width: 53.125em){
+
+	.contact--info{
+		flex: 0 0 45%;
+	}
+
+}
+
+
+@media only screen and (max-width: 46.875em){
+
+	.contact{
+		flex-direction: column;
+	}
+
+	.contact--info{
+		padding: 0 3rem;
+	}
+
+	.contact--info--box h3{
+		font-size: 1.5rem;
+	}
+
+	.contact--info--box span{
+		font-size: 1.2rem;
+		line-height: 1.8rem;
+	}
+
+	.contact__social--links{
+		margin-left: 0rem;
+	}
+
+	.contact--form{
+		padding: 0 3rem;
+	}
+
+}
+
+@media only screen and (max-width: 28.125em){
+
+	.contact--info{
+		padding: 0 3rem;
+	}
+
+	.contact--info--box h3{
+		width: 10rem;
+		margin-right: 0rem;
+	}
+
+}
+
+@media only screen and (max-width: 21.875em){
+
+	.contact--info{
+		padding: 0 0rem;
+	}
+
+}

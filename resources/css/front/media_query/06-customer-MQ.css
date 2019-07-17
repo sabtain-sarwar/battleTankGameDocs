@@ -1,0 +1,30 @@
+
+/*@media only screen and (max-width: 53.125em){*/
+
+	/*.customer{*/
+		/*width: 97.30%;*/ /*-- For Controlling the overflow of the div --*/
+	/*}*/
+
+/*}*/
+
+
+@media only screen and (max-width: 46.875em){
+
+	/*.customer{
+		width: 100%;
+	}*/
+
+	.customer__pra{
+		font-size: 2rem;
+		line-height: 1.5;
+	}
+
+	.customer--detail > li > h3{
+		font-size: 1.4rem;
+	}
+
+	.customer--detail > li > span{
+		font-size: 1.2rem;
+	}
+
+}

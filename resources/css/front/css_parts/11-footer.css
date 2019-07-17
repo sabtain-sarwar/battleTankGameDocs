@@ -1,0 +1,43 @@
+
+.footer-main{
+	background-image: url(../../img/pw_maze_black_2X.png);
+	background-position: left top;
+
+	padding: 3.5rem 0 3.5rem;
+} 
+
+.footer{
+	text-align: center;
+}
+
+.footer-logo{
+	width: 100px;
+	margin: 1.5rem auto;
+}
+
+.footer-logo > img{
+	max-width: 100%;
+}
+
+.copyright{
+	display: block;
+	font-size: 1.4rem;
+	color: #CCCCCC;
+}
+
+
+.credits > p {
+	font-size: 1.4rem;
+	color: var(--White--);
+}
+
+.credits > p > a {
+	font-weight: 900;
+	text-decoration: none;
+	color: var(--Btn-Color--);
+}
+
+.credits > p > a:hover {
+	text-decoration: underline;
+	color: var(--White--);
+}

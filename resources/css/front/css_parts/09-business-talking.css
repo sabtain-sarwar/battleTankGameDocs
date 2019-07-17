@@ -1,0 +1,17 @@
+
+.business-talking--main{
+	background-image: url(../../img/section-bg2.jpg);
+	padding: 6rem 0 1rem 0;
+	text-align: center;
+}
+
+.business-talking{}
+
+.business__talking--heading{
+	font-size: 4.2rem;
+	font-weight: 700;
+	margin: 2rem 0 7rem 0;
+	text-transform: uppercase;
+	letter-spacing: -0.1rem;
+	color: var(--White--);
+}

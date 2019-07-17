@@ -1,0 +1,90 @@
+
+.featured__work--main{
+	background-color: #FAFAFA;
+}
+
+.featured__work{
+	display: flex;
+}
+
+/*-----------------------------------------------------------*/
+/*---------- Featured Work Image ---*/
+
+.featured__work--img{
+	flex: 0 0 41.66666%;
+
+	padding: 0 1.5rem 0 1.5rem;
+
+	animation-name: Fade_In_Left;
+	animation-duration: 1s;
+	animation-fill-mode: both; 
+
+}
+
+.featured__work--img > img{
+	max-width: 100%;
+}
+
+.start-game {
+	height: 420px;
+}
+
+/*-----------------------------------------------------------*/
+/*---------- Featured Work Content ---*/
+
+.featured__work--content--main{
+	flex: 0 0 58.333333%;
+
+	padding: 0 1.5rem 0 1.5rem;
+
+	/*background-color: maroon;*/
+}
+
+.featured__work--primary-heading{
+	font-size: 3.4rem;
+	font-weight: 700;
+	margin-bottom: 0.8rem;
+	letter-spacing: -0.1rem;
+	color: var(--Heading-Color--);
+	text-transform: uppercase;
+}
+
+.featured__work--primary-pra{
+	font-size: 1.4rem;
+	padding-bottom: 2.6rem;
+	line-height: 2.4rem;
+}
+
+.featured__work--content{}
+
+.featured__work--box{
+	display: flex;
+
+	margin-bottom: 1.6rem;
+}
+
+.featured__work--box--icon-main{
+	/* width: 8rem; */
+	margin-top: 0.3rem;
+}
+
+.featured__work--box--icon{
+	font-size: 3.8rem;
+}
+
+.featured__work--box--text{
+	margin-left: 2rem;
+}
+
+.featured__work--box--text > h3{
+	font-size: 1.6rem;
+	font-weight: inherit;
+	margin-bottom: 0.5rem;
+	text-transform: uppercase;
+	color: var(--Heading-Color--);
+}
+
+.featured__work--box--text > p{
+	font-size: 1.5rem;
+	line-height: 2.2rem;
+}

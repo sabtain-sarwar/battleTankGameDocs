@@ -1,0 +1,63 @@
+
+@media only screen and (max-width: 71.875em){
+
+	.team--main{
+		/*background-color: maroon;*/
+	}
+
+	.team__leader--main{
+		justify-content: center;
+	}
+
+	.team__leader{
+		flex: 0 0 28%;
+	}
+
+	.team__leader > p{
+		font-size: 1.4rem;
+	}
+
+}
+
+@media only screen and (max-width: 59.375em){
+
+	.team__leader{
+		flex: 0 0 29%;
+		margin-right: 3%;
+	}
+
+	.team__leader > p{
+		font-size: 1.3rem;
+	}
+
+}
+
+@media only screen and (max-width: 53.125em){
+
+	.team__leader{
+		flex: 0 0 27%;
+	}
+
+}
+
+@media only screen and (max-width: 46.875em){
+
+	.team__leader--main{
+		flex-direction: column;
+	}
+
+	.team__leader{
+		margin-right: 0;
+	}
+
+	.team__leader:not(:last-child){
+		margin-bottom: 4rem;
+	}
+
+	.team__leader > p{
+		line-height: 1.8rem;
+		width: 50%;
+		margin: 0 auto;
+	}
+
+}

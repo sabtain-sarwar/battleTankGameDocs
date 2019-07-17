@@ -1,0 +1,134 @@
+/***********************************************************/
+/**** Icon's CSS **/
+
+@import 'icon_css/all.css';
+
+/***********************************************************/
+/**** Animation CSS **/
+
+@import 'animation.css';
+
+/***********************************************************/
+/**** Basic Reset **/
+
+@import 'css_parts/01-basic-reset.css';
+
+/***********************************************************/
+/**** Header Section **/
+
+@import 'css_parts/02-header.css';
+
+/***********************************************************/
+/**** Services Section **/
+
+@import 'css_parts/03-services.css';
+
+/***********************************************************/
+/**** Featured Work Section **/
+
+@import 'css_parts/04-featured-work.css';
+
+/***********************************************************/
+/**** Portfolio Section **/
+
+@import 'css_parts/05-portfolio.css';
+
+/***********************************************************/
+/**** Customer Section **/
+
+@import 'css_parts/06-customer.css';
+
+/***********************************************************/
+/**** C-Logo-Part Section **/
+
+@import 'css_parts/07-c-logo-part.css';
+
+/***********************************************************/
+/**** Team Section **/
+
+@import 'css_parts/08-team.css';
+
+/***********************************************************/
+/**** Business Talking Section **/
+
+@import 'css_parts/09-business-talking.css';
+
+/***********************************************************/
+/**** Content Section **/
+
+@import 'css_parts/10-content-section.css';
+
+/***********************************************************/
+/**** Footer **/
+
+@import 'css_parts/11-footer.css';
+
+
+/*****************************************************************************************************/
+/******************************** Media Queries ******************************/
+
+
+/***********************************************************/
+/**** Basic-Reset Media Query  **/
+
+@import 'media_query/01-basic-reset-MQ.css';
+
+
+/***********************************************************/
+/**** Header Section Media Query  **/
+
+@import 'media_query/02-header-MQ.css';
+
+
+/***********************************************************/
+/**** Services Section Media Query  **/
+
+@import 'media_query/03-services-MQ.css';
+
+
+/***********************************************************/
+/**** Featured Work Section Media Query  **/
+
+@import 'media_query/04-featured-work-MQ.css';
+
+
+/***********************************************************/
+/*----- Portfolio Section Media Query --*/
+
+@import 'media_query/05-portfolio-MQ.css';
+
+
+
+/***********************************************************/
+/*----- Customer Section Media Query --*/
+
+@import 'media_query/06-customer-MQ.css';
+
+
+/***********************************************************/
+/*----- C-Logo-Part Section Media Query --*/
+
+@import 'media_query/07-c-logo-part-MQ.css';
+
+
+/***********************************************************/
+/*----- Team Section Media Query --*/
+
+@import 'media_query/08-team-MQ.css';
+
+
+/***********************************************************/
+/*----- Business Talking Section Media Query --*/
+
+@import 'media_query/09-business-talking-MQ.css';
+
+
+/***********************************************************/
+/*----- Content Section Media Query --*/
+
+@import 'media_query/10-content-section-MQ.css';
+
+/***********************************************************/
+/*----- Footer Section Media Query --*/
+
+@import 'media_query/11-footer-MQ.css';

@@ -1,0 +1,92 @@
+
+.services__primary--heading{
+	font-size: 3.4rem;
+	font-weight: 700;
+	letter-spacing: -0.1rem;
+	color: var(--Heading-Color--);
+	text-transform: uppercase;
+	text-align: var(--Center--);
+}
+
+.services__secondary--heading{
+	font-size: 1.6rem;
+	font-weight: inherit;
+	margin-bottom: 6rem;
+	text-align: var(--Center--);
+}
+
+
+
+/*-----------------------------------------------------------*/
+/*---------- Services ---*/
+
+
+.services{
+	display: flex;
+}
+
+
+/*-----------------------------------------------------------*/
+/*---------- Small Box (1st) ---*/
+
+.small-box-main{
+	flex: 0 0 31.6%;
+
+	/*margin-right: auto;*/
+
+	animation-name: Fade_In_Left;
+	animation-delay: 0.5s;
+	animation-duration: 1s;
+	animation-fill-mode: both;
+}
+
+.small-box{
+	display: flex;
+
+	margin-bottom: 2rem;
+}
+
+.small-box__icon-main{
+	width: 10rem;
+}
+
+.small-box__icon{
+	padding-top: 0.3rem;
+	font-size: 3.8rem;
+	color: var(--Heading-Color--);
+}
+
+.small-box__text > h3{
+	font-size: 1.6rem;
+	font-weight: inherit;
+	margin-bottom: 0.5rem;
+	text-transform: uppercase;
+	color: var(--Heading-Color--);
+}
+
+.small-box__text > p{
+	font-size: 1.4rem;
+}
+
+/*-----------------------------------------------------------*/
+/*---------- Services Image ---*/
+
+.featured-tank {
+	height: 100%;
+	margin-left: 10rem;
+}
+
+
+.services__img{
+	flex: 0 0 66.66%;
+	text-align: center;
+	animation-name: Fade_In_Up;
+	animation-delay: 0.2s;
+	animation-duration: 1s;
+	animation-fill-mode: both;
+
+}
+
+.services__img > img{
+	max-width: 100%;
+}

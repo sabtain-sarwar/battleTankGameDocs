@@ -1,0 +1,25 @@
+
+Bootstrap Row OR Colum Media Queries:-
+
+@media (min-width: 768px) {
+  .container {
+    width: 750px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    width: 970px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    width: 1170px;
+  }
+}
+
+
+Note:- In Media Queries Sequence matters alot.Becuz media query dont have add any 
+specificity to our selectors.So thats why order of media queries matters alot.
+Keep In mind.

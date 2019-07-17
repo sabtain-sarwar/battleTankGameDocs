@@ -1,0 +1,73 @@
+
+.customer--main{
+	background-image: url('../../img/section-bg1.jpg');
+	background-position: center;
+	background-size: cover;
+	padding: 5.5rem 0;
+	text-align: center;
+}
+
+
+.quote__right--main{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	margin: 0 auto;
+
+	font-size: 2.7rem;
+	width: 6.8rem;
+	height: 6.8rem;
+	border: 0.1rem solid var(--Btn-Color--);
+	border-radius: 50%;
+	color: var(--Btn-Color--);
+	animation-name: Fade_In_Down;
+	animation-delay: 0.3s;
+	animation-duration: 1s;
+	animation-fill-mode: both;
+}
+
+
+.customer__pra{
+	font-size: 2.8rem;
+	font-style: italic;
+	margin: 3rem 0 1rem 0;
+	color: #FDFDFD;
+	animation-name: Fade_In_Down;
+	animation-delay: 0.5s;
+	animation-duration: 1s;
+	animation-fill-mode: both;
+
+}
+
+.customer--detail{
+	list-style: none;
+
+	animation-name: Just_Fade_In;
+	animation-delay: 0.5s;
+	animation-duration: 1s;
+	animation-fill-mode: both;
+
+}
+
+.customer--detail > li > a > img{
+	max-width: 100%;
+	margin-bottom: 1.5rem;
+	border-radius: 50%;
+}
+
+.customer--detail > li > h3{
+	font-size: 1.6rem;
+	font-weight: inherit;
+	text-transform: uppercase;
+	color: var(--White--);
+}
+
+.customer--detail > li > span{
+	font-size: 1.4rem;
+	color: #F1F1F1;
+}
+
+.client {
+	width: 100px;
+}

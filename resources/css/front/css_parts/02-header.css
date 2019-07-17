@@ -1,0 +1,177 @@
+
+.header-main{
+	background-image: url(../../img/pw_maze_black_2X.png);
+	background-position: left top;
+
+	padding: 28rem 0;
+	text-align: var(--Center--);
+}
+
+.header{}
+
+.main-logo{
+	width: 25rem;
+	margin: 0 auto 1.5rem auto;
+
+	animation-name: Fade_In_Down;
+	animation-delay: 0.7s;
+	animation-duration: 1s; 
+ 
+	animation-fill-mode: both;
+
+	/*-- animation-fill-mode property specifies style when animation is not playing (like when animation is finished
+	or when animation has a delay).It styles the element like before and after the execution of animation.
+	Note:- By default animation do not effect the element until the 1st keyframe is played and then stops right
+	after the last keyframe is played. --*/
+
+	/*-- animation-fill-mode: forwards; In forwards value the element will retain the value of last keyframe
+	which is encountered during the execution Note:- The last keyframe depend on the value of 2 properties
+	animation-direction & animation-iteration-count --*/
+
+	/*-- animation-fill-mode: backwards; As we refresh the page, the backwards value apply the value of first 
+	keyframe,and this remins until the animation-delay.Note:- The first keyframe depend on the value of
+	animation-direction --*/
+
+	/*-- animation-fill-mode: both; The animation will follow the rule for both forwards and backwards,thus extending
+	the animation properties in both directions. --*/
+
+}
+
+.main-logo > a > img {
+	max-width: 100%;
+}
+
+.header__primary-heading{
+	font-size: 5rem;
+	font-weight: inherit;	/*--- It Inherit font-weight from body ---*/
+	margin-bottom: 1.9rem;
+	letter-spacing: -0.1rem;
+	color: var(--White--);
+
+	animation-name: Fade_In_Down;
+	animation-delay: 0.7s;
+	animation-duration: 1s;
+	animation-fill-mode: both;
+
+}
+
+.header__secondary-heading{
+	font-size: 1.4rem;
+	font-weight: inherit;	/*--- It Inherit font-weight from body ---*/
+	text-transform: uppercase;
+	color: #BCBCBC;
+	margin: 0rem 0.5rem 5.3rem 0;
+	padding-left: 1.5rem;
+
+	animation-name: Fade_In_Up;
+	animation-delay: 1s;
+	animation-duration: 1s;
+	animation-fill-mode: both;
+
+}
+
+.header__btn{
+	display: inline-flex;
+	padding: 1.5rem 3.5rem;
+	margin-bottom: 2rem;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 1.6rem;
+	font-weight: inherit;	/*--- It Inherit font-weight from body ---*/
+	color: var(--White--);
+	background-color: var(--Btn-Color--);
+	border-radius: 0.3rem;
+	line-height: 2.5rem;
+	transition: color 0.4s, background-color 0.4s;
+
+	animation-name: Fade_In_Up;
+	animation-delay: 1s;
+	animation-duration: 1s;
+	animation-fill-mode: both;
+
+}
+
+.header__btn:hover, .header__btn:active{
+	color: var(--Btn-Color);
+	background-color: var(--White--);
+}
+
+/*------------------------------ Navigation -----------------------------------*/
+
+.navigation-main{
+	padding: 0;
+	border-bottom: 0.1rem solid #DDDDDD;
+	box-shadow: 0 0.4rem 0.5rem -0.3rem #ECECEC; 
+	position: relative;
+}
+
+.navigation{}
+
+/*-- For Better Mobile Display Start's --*/
+
+.close__nav{
+	display: none;
+	justify-content: center;
+	align-items: center;
+}
+
+.close__nav--btn{
+	padding: 1.5rem 2rem;
+	border: none;
+	background-color: transparent;
+}
+
+.close__nav--icon{
+	display: inline-flex;
+	font-size: 4rem;
+	color: var(--Heading-Color--);
+	transition: color 0.5s;
+}
+
+.close__nav--icon:hover{
+	color: var(--Btn-Color--)
+}
+
+/*-- For Better Mobile Display End's --*/
+
+.main-nav{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: var(--Center--);
+	align-items: var(--Center--);
+
+	margin: 1rem 0 0 0;
+	list-style: none;
+}
+
+.small-navi {
+	width: 15rem;
+}
+
+.main-nav > li{
+	display: inline;
+	margin: 0 0.1rem;
+}
+
+.main-nav > li > a{
+	display: inline-flex;
+	margin: 1.7rem 3.2rem;
+	color: var(--Heading-Color--);
+	font-size: 1.4rem;
+	text-transform: uppercase;
+	text-decoration: none;
+	line-height: 1.3;
+	transition: color 0.3s ease-in-out;
+}
+
+.main-nav > li > a:hover{
+	color: var(--Btn-Color--);
+}
+
+.main-nav > li > a > img{
+	max-width: 100%;
+}
+
+.small-logo{
+	padding: 0 3.2rem;
+}

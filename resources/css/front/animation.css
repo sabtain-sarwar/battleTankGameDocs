@@ -1,0 +1,118 @@
+
+@keyframes Just_Fade_In {
+
+	0%{
+		opacity: 0;
+	}
+
+	100%{
+		opacity: 1;
+	}
+
+}
+
+
+@keyframes Fade_In_Down {
+
+	0%{
+		opacity: 0;
+		transform: translateY(-2rem);
+	}
+
+	100%{
+		opacity: 1;
+		transform: translateY(0);
+	}
+
+}
+
+
+@keyframes Fade_In_Up {
+
+	0%{
+		opacity: 0;
+		transform: translateY(2rem);
+	}
+
+	100%{
+		opacity: 1;
+		transform: translateY(0);
+	}
+
+}
+
+@keyframes Fade_In_Left {
+
+	0%{
+		opacity: 0;
+		transform: translateX(-2rem);
+	}
+
+	100%{
+		opacity: 1;
+		transform: translateX(0);
+	}
+
+}
+
+
+@keyframes Fade_In_Right {
+
+	0%{
+		opacity: 0;
+		transform: translateX(2rem);
+	}
+
+	100%{
+		opacity: 1;
+		transform: translateX(0);
+	}
+
+}
+
+/*-- Featured Work Section Animation --*/
+
+.animation-delay02{
+	animation-name: Fade_In_Right;
+	animation-delay: 0.2s;
+	animation-duration: 1s;
+	animation-fill-mode: both;
+}
+
+.animation-delay04{
+	animation-name: Fade_In_Right;
+	animation-delay: 0.4s;
+	animation-duration: 1s;
+	animation-fill-mode: both;
+}
+
+.animation-delay06{
+	animation-name: Fade_In_Right;
+	animation-delay: 0.6s;
+	animation-duration: 1s;
+	animation-fill-mode: both;
+}
+
+
+/*-- Team Section Animation --*/
+
+.animation-delay03-team{
+	animation-name: Fade_In_Down;
+	animation-delay: 0.3s;
+	animation-duration: 1s;
+	animation-fill-mode: both;
+}
+
+.animation-delay06-team{
+	animation-name: Fade_In_Down;
+	animation-delay: 0.6s;
+	animation-duration: 1s;
+	animation-fill-mode: both;
+}
+
+.animation-delay09-team{
+	animation-name: Fade_In_Down;
+	animation-delay: 0.9s;
+	animation-duration: 1s;
+	animation-fill-mode: both;
+}
